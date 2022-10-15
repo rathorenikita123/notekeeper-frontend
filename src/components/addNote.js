@@ -34,7 +34,7 @@ const AddNotes = () => {
 
             <input type="checkbox" id="my-modal-5" className="modal-toggle" />
             <div className="modal">
-                <div className="modal-box w-11/12 max-w-5xl flex flex-col h-1/2 items-center justify-between">
+                <div className="modal-box w-11/12 max-w-5xl flex flex-col h-2/3 items-center justify-between">
                     <label htmlFor="my-modal-5" className="btn btn-sm btn-circle absolute right-4 top-4">✕</label>
 
                     <h3 className="font-bold text-lg">Create a Note</h3>

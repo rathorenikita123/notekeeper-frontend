@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const listNotes = async () => {
-    const data =  await axios.get('hhttps://notekeeper-backend.herokuapp.com/notes');
+    const data =  await axios.get('https://notekeeper-backend.herokuapp.com/notes');
     return data;
 }
 
